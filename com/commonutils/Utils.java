@@ -10,4 +10,10 @@ public class Utils {
         System.out.println();
     }
 
+    public static void swap(int[] arr, int srcIndex, int targetIndex){
+        int temp = arr[srcIndex];
+        arr[srcIndex] = arr[targetIndex];
+        arr[targetIndex] = temp;
+    }
+
 }
