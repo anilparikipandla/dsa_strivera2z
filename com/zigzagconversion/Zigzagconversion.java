@@ -3,7 +3,7 @@ package com.zigzagconversion;
 public class Zigzagconversion {
 
     public static void main(String[] args) {
-        String input = "PAYPALISHIRING";
+        // String input = "PAYPALISHIRING";
         System.out.println("Entry==>");
         String output = printZigZagConversion("A", 2);
         System.out.println("This is a Map");
